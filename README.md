@@ -84,7 +84,7 @@ Verifique sempre:
         axis.line.x = element_line(),
         axis.line.y = element_line())
 ```
-3. Homocedasticidade (Teste White)
+2. Homocedasticidade (Teste White)
 ```r
 white(modelo, interactions = TRUE)
 ```
@@ -95,8 +95,8 @@ white(modelo, interactions = TRUE)
 
 
 
-4. Normalidade dos resíduos (Shapiro-Wilk)
-5. Multicolinearidade (VIF)
+3. Normalidade dos resíduos (Shapiro-Wilk)
+4. Multicolinearidade (VIF)
 
 ## Resultados Esperados
 - Equação de regressão:  
