@@ -57,7 +57,7 @@ ggplot(data = modelo, aes(y = Produtividade, x = fitted(modelo))) +
        subtitle = 'Desvendando os Drivers da Produtividade Agrícola',
        x = 'Fertilizantes (L/ha)',
        y = 'Produtivdade (Kg/m²)',
-       caption = 'Fonte: Dados fictícios') +
+       caption = 'Fonte: dados fictícios') +
   theme(panel.background = element_rect(fill = 'white'),
         plot.title = element_text(family = 'dosis', hjust = 0.5, face = 'bold', color = '#01A77F', size = 14),
         plot.subtitle = element_text(family = 'poppins', hjust = 0.5),
