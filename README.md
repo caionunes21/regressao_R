@@ -53,7 +53,7 @@ ggplot(data = modelo, aes(y = Produtividade, x = fitted(modelo))) +
               level = 0.95,
               se = TRUE,
               linewidth = 1.5) +
-  labs(title = 'Impacto do uso de Fertilizantes no Produtividade Agrícola',
+  labs(title = 'Impacto do uso de Fertilizantes na Produtividade Agrícola',
        subtitle = 'Desvendando os Drivers da Produtividade Agrícola',
        x = 'Fertilizantes (L/ha)',
        y = 'Produtivdade (Kg/m²)',
